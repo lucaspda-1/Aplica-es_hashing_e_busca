@@ -1,0 +1,68 @@
+﻿Alunos:Alan Kelvin,Antony Thiago, Lucas Pereira 
+
+
+
+
+Conteúdo consultado:
+
+https://gist.github.com/lucascnr/24c70409908a31ad253f97f9dd4c6b7c
+https://github.com/artrabelo/cpf-funcs/blob/master/cpf.py 
+https://panda.ime.usp.br/panda/static/pythonds_pt/05-OrdenacaoBusca/Hashing.html 
+https://gist.github.com/divanibarbosa/bd0a83fed85a63042c51723fd82a5014 
+https://www.youtube.com/watch?v=juPjfZ5B5Y8 
+https://www.youtube.com/watch?v=y18aJDMVsco 
+https://www.freecodecamp.org/portuguese/news/pesquisa-binaria-em-python-como-escrever-o-algoritmo-de-pesquisa-binaria-e-exemplos/ 
+https://panda.ime.usp.br/panda/static/pythonds_pt/05-OrdenacaoBusca/BuscaBinaria.html 
+https://www.youtube.com/watch?v=EgLE5HwRy_M 
+https://www.youtube.com/watch?v=KUUXv6rBCrY 
+https://replit.com/@RicardoRubens/timeit-exemplo#main.py 
+
+
+Comentário da equipe a respeito da atividade:
+
+Gostaríamos de relatar um problema que enfrentamos durante a implementação do exercício sobre busca e inserção de três estruturas de dados. Conseguimos com sucesso implementar a busca binária e a tabela de hash, porém, ao implementar a busca sequencial, enfrentamos dificuldades ao analisar o desempenho com conjuntos de dados maiores, especificamente com um milhão de dados. Infelizmente, a busca sequencial continua rodando infinitamente sem retornar um resultado, o que nos impede de fornecer uma medição do tempo médio de busca.
+
+
+Possíveis problemas identificados no código:
+
+No código de busca sequencial o principal problema neste código é o desempenho ineficiente da busca sequencial, especialmente quando lidamos com grandes conjuntos de dados, como 1 milhão de registros. No código de busca binária não trata colisões ao inserir registros com o mesmo CPF. Para aprimorá-lo, podemos implementar um mecanismo para lidar com colisões, como encadeamento. No código da tabela hashing não há tratamento de colisões ao inserir registros com o mesmo valor de hash e também a função de hash pode não estar otimizada para lidar com números primos como tamanhos de tabela para melhorá-lo, podemos implementar estratégias para lidar com colisões, revisar a função de hash para distribuir os elementos de forma mais uniforme .
+
+
+
+
+
+Comparação de Desempenho de Estruturas de Dados:
+Este relatório compara o desempenho de três estruturas de dados: tabela hash, busca binária e busca sequencial, em termos de tempo de inserção e tempo de busca. Os dados utilizados foram conjuntos de 10.000, 100.000 e 1.000.000 de CPFs.
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+Análise de Resultados:
+Tempo de Inserção:
+* Tabela Hash: O tempo de inserção aumenta com o número de CPFs, mas de forma logarítmica. Isso significa que o aumento do tempo se torna mais lento à medida que o conjunto de dados cresce.
+* Busca Binária: O tempo de inserção também aumenta com o número de CPFs, mas de forma mais linear do que a tabela hash. Isso significa que o aumento do tempo é maior  à medida que o conjunto de dados cresce.
+* Busca Sequencial: O tempo de inserção aumenta linearmente com o número de CPFs. Isso significa que o tempo de inserção é diretamente proporcional ao tamanho do conjunto de dados.
+Tempo de Busca:
+* Tabela Hash: O tempo de busca é extremamente rápido, independente do tamanho do conjunto de dados. Isso se deve à natureza da estrutura de dados, que permite acessar os elementos diretamente por meio de uma chave.
+* Busca Binária: O tempo de busca também é rápido, mas aumenta ligeiramente com o número de CPFs. Isso se deve à necessidade de realizar comparações para encontrar o elemento desejado.
+* Busca Sequencial: O tempo de busca aumenta linearmente com o número de CPFs. Isso significa que o tempo de busca é diretamente proporcional ao tamanho do conjunto de dados.
+Padrões de Desempenho:
+* A tabela hash apresentou o melhor desempenho geral em termos de tempo de busca, sendo extremamente rápida em todos os cenários.
+* A busca binária apresentou um bom desempenho em termos de tempo de busca, especialmente para conjuntos de dados menores.
+* A busca sequencial apresentou o pior desempenho em termos de tempo de busca, especialmente para conjuntos de dados maiores.
+Análise do Comportamento em Diferentes Cenários:
+
+
+* Busca frequente de dados: A tabela hash é a melhor opção para busca frequente de dados, pois o tempo de busca é extremamente rápido, independente do tamanho do conjunto de dados.
+* Inserção e busca ocasional de dados: A busca binária pode ser uma boa opção para inserção e busca ocasional de dados, especialmente para conjuntos de dados menores.
+Interpretação dos Resultados:
+* A tabela hash é a estrutura de dados mais eficiente para busca rápida de dados, especialmente em grandes conjuntos de dados.
+* A busca binária é uma boa opção para busca em conjuntos de dados menores, ou quando a inserção de dados também é frequente.
+* A busca sequencial é a menos eficiente das três estruturas de dados, mas pode ser útil em situações específicas, como quando a simplicidade de implementação é mais importante que o desempenho.
