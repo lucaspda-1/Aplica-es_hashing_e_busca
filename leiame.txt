@@ -66,3 +66,4 @@ Interpretação dos Resultados:
 * A tabela hash é a estrutura de dados mais eficiente para busca rápida de dados, especialmente em grandes conjuntos de dados.
 * A busca binária é uma boa opção para busca em conjuntos de dados menores, ou quando a inserção de dados também é frequente.
 * A busca sequencial é a menos eficiente das três estruturas de dados, mas pode ser útil em situações específicas, como quando a simplicidade de implementação é mais importante que o desempenho.
+![10.000](blob:https://imgur.com/713159fd-3dd5-4a29-82fc-22cd9e58f27a)
