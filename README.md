@@ -28,7 +28,7 @@ Deve-se desenvolver três estruturas de dados que permitam inserir e pesquisar d
 
 Para avaliar o desempenho de cada estrutura de dados e dos algoritmos relacionados, realizem testes de inserção e pesquisa com conjuntos de dados de tamanhos variados: 10.000, 100.000 e 1.000.000 de elementos. Em cada teste, registre o tempo médio para inserção e buscar registros.
 #### Comparação de Tempo Médio de Inserção
-![10.000](blob:https://imgur.com/5faa8371-1759-4da5-b6fc-ebb028e87c38)
+![10.000](blob:https://imgur.com/240d5c85-2294-45b7-89c4-2dd880cf0a9e)
 
 ![100.000](https://i.imgur.com/Uy9yqwj.png)
 
