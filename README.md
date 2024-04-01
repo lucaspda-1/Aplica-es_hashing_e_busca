@@ -34,7 +34,7 @@ Para avaliar o desempenho de cada estrutura de dados e dos algoritmos relacionad
 
 ![1.000.000](https://i.imgur.com/ZD3FquO.png)
 
-##### Comparação de Tempos de buscas
+#### Comparação de Tempos de buscas
 ![10.000](https://i.imgur.com/VRrIsYz.png)
 ![100.000](https://i.imgur.com/g0Uip0P.png)
 ![1.000.000](https://i.imgur.com/Oqn0Tiq.png)
