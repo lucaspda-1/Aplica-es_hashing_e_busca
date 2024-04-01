@@ -33,8 +33,11 @@ Para avaliar o desempenho de cada estrutura de dados e dos algoritmos relacionad
 ![100.000](https://i.imgur.com/Uy9yqwj.png)
 
 ![1.000.000](https://i.imgur.com/ZD3FquO.png)
+
 ##### Comparação de Tempos de buscas
-![Números de Cpf's](https://i.imgur.com/VRrIsYz.png)
+![10.000](https://i.imgur.com/VRrIsYz.png)
+![100.000](blob:https://imgur.com/febdec31-bcb1-4bba-8919-6af83079600c)
+![1.000.000](blob:https://imgur.com/362bb072-ee17-494f-981a-c1d4da4ab04d)
 
 ## Atividades
 Para executar o projeto, sugere-se seguir as seguintes atividades:
